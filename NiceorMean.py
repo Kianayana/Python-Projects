@@ -49,7 +49,7 @@ def nice_mean(nice,mean,name):
             print ("\nThe stranger glares at you \nmenacingly and storms off...")
             mean = (mean +1)
             stop = False
-    score(nice,mean,nice) # pass the 3 variables to the score()
+    score(nice,mean,name) # pass the 3 variables to the score()
 
 def show_score(nice,mean,name):
     print ("\n{}, your current total: \n({}, Nice) and ({}, Mean)".format(name,nice,mean) )
