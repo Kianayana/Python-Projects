@@ -7,7 +7,7 @@ class Media:
         
 
     def play(self):
-        string = "Action! The amazing {}({}) can be watched on {}! ".format(self.name, self.year, self.medium)
+        string = "Action! The amazing {}({}) can now be watched on {}!\n".format(self.name, self.year, self.medium)
         return string
 
 #the first child class will display a tv show to show that it is a type of media
@@ -16,8 +16,8 @@ class TV_Show(Media):
     year = 2010
     medium = "cable or Hulu"
 
-    def episodes(self):
-        string = "Who doesn't love Finn and Jake?!\n"
+    def play(self):
+        string = "Hint: This show highlights the unbreakable bond between a boy and his older brother. \n"
         return string
 
 #the second child class will display a movie to show that it is a type of media
@@ -26,15 +26,17 @@ class Movie(Media):
     year = 2018
     medium = "OnDemand, Amazon Prime, or Max"
 
-    def films(self):
-        string = "Hopefully you don't get too scared..."
+    def play(self):
+        string = "Hint: While popular at it's release for it's scare factor, this movie regained popularity at a later time for making fun of filters and photoshop.\n\nCan you guess what is new to watch?"
         return string
 
 if __name__=="__main__":
+    general = Media()
+    print(general.play())
+
     show = TV_Show()
     print(show.play())
-    print(show.episodes())
 
     movie = Movie()
     print(movie.play())
-    print(movie.films())
+    
