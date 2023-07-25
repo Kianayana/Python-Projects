@@ -4,7 +4,7 @@ This repository will hold all of my Python related projects that I create during
 
 ## Projects: 
 * Phonebook
-* Check Giles Gui
+* Check Files Gui
 
 ### Phonebook 
 This project functions as aphone book for a user. It saves a contact's name, phone number, and email address in a database and allows users to update and delete previously stored entries. 
