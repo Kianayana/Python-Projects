@@ -3,8 +3,8 @@
 This repository will hold all of my Python related projects that I create during the Python Course at The Tech Academy.
 
 ## Projects: 
-*Phonebook
-*Check Giles Gui
+* Phonebook
+* Check Giles Gui
 
 ### Phonebook 
 This project functions as aphone book for a user. It saves a contact's name, phone number, and email address in a database and allows users to update and delete previously stored entries. 
